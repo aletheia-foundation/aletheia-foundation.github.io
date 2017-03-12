@@ -16,4 +16,5 @@ Open access journals are scientific journals that do not restrict access to scie
 # Why should you get involved and how can you?
 Imagine a world where anyone regardless of age, gender, race, creed or any other identifier can access the totality of human knowledge. Sadly, this world doesn’t exist, yet, and it won’t be given to us on a silver platter, we have to build this better world ourselves. Aletheia is currently under construction and to help us you can donate money or time to the project, we are currently seeking developers and designers. But just as software doesn’t write itself, communities don’t build themselves either, as we grow there will be further scope for contribution so check back regularly.
 
-Aletheia (Ancient Greek: ἀλήθεια) is a Greek word that translated literally means "the state of not being hidden; the state of being evident." It is variously translated as "unclosedness", "unconcealedness", "disclosure" or "truth" ~ Wikipedia
+
+_Aletheia (Ancient Greek: ἀλήθεια) is a Greek word that translated literally means "the state of not being hidden; the state of being evident." It is variously translated as "unclosedness", "unconcealedness", "disclosure" or "truth" ~ Wikipedia_
