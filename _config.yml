@@ -16,12 +16,11 @@
 title: Aletheia 
 email: contact@aletheia-foundation.io
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Aletheia is a decentralised open access scientific journal. Think of it as a peer to peer 
+  (P2P) publishing platform and database all rolled into one.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "https://aletheia-foundation.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: @aletheia_f
 github_username:  jekyll
 
 # Build settings
