@@ -2,4 +2,4 @@
 
 _**Publish science for free, access science for free.**_
 
-We are trying to get a website up, if you have experience with github pages please feel free to reach out to us on contact@aletheia-foundation.io
+Our website is now up at http://aletheia-foundation.io/, if you have experience with github pages and want to help us make it look better please feel free to reach out to us on contact@aletheia-foundation.io
