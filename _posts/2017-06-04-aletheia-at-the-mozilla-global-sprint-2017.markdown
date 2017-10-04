@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blogpost
 title:  "Aletheia at the Mozilla Global Sprint 2017"
 date:   2017-06-04 19:23:11 +1000
 categories: Aletheia
