@@ -1,18 +1,33 @@
 ---
-layout: default
 title: Aletheia
+stylesheet: landing
+layout: default
 ---
 
-<main>
-    <div id="mid-section-container">
+<!DOCTYPE html>
+<html>
 
-        <div id="logo-container">
-            <img src="images/Aletheia_Logo.png"> 
+    {% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <main>
+        <div id="mid-section-container">
+    
+            <div id="logo-container">
+                <img src="images/Aletheia_Logo_200.png"> 
+            </div>
+    
+            <div id="title">
+                    A Decentralised, Open Access, <br/>Publishing Platform for Scientific Research
+            </div>
+    
         </div>
+    </main>
 
-        <div id="title">
-                A Decentralised, Open Access, <br/>Publishing Platform for Scientific Research
-        </div>
+    {% include footer.html %}
 
-    </div>
-</main>
+</body>
+</html>
