@@ -8,14 +8,17 @@
 
 main 
     position: fixed
-    top: 20%
+    top: $header_height
     left: 0
     width: 100%
+    height: calc(100% - #{$header_height} - #{$footer_height})
+    display: flex
+    align-items: center
 
 #mid-section-container 
     padding: 20px
     background: rgba(255, 255, 255, 0.8)
-    width: 700px
+    width: 692px
     margin: auto
 
 #logo-container 
