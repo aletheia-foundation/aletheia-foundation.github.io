@@ -2,6 +2,7 @@
 layout: blogpost
 title: About
 permalink: /about/
+id: About
 ---
 
 # What is Aletheia?

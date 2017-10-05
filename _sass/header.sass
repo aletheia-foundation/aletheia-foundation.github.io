@@ -10,19 +10,71 @@ header
     font-family: 'Open Sans', sans-serif
     z-index: 1
 
+@media screen and (min-width: $large_screen_min_width)
 
-header a 
-    color: $aletheia_grey
-    border-style: solid
-    border-width: 0 1px 0 0
-    text-decoration: none
-    font-size: 14pt
-    padding: 4px 30px
-    position: relative
-    top: 5px
-    font-weight: bold
+    #header-small-screen
+        display: none
+        
+    #header-large-screen 
+        a 
+            color: $aletheia_grey
+            border-style: solid
+            border-width: 0 1px 0 0
+            text-decoration: none
+            font-size: 14pt
+            padding: 4px 30px
+            position: relative
+            top: 5px
+            font-weight: bold
+        a:hover 
+            color: whitesmoke
+            border-color: $aletheia_grey
 
 
-header a:hover 
-    color: whitesmoke
-    border-color: $aletheia_grey
+@media screen and (max-width: $small_screen_max_width)
+
+    #header-large-screen 
+        display: none
+
+    #header-menu-container
+        position: relative
+
+        button
+            font-size: 14pt
+            display: block
+            border-style: none
+            color: $aletheia_grey
+            background: black
+            font-weight: bold
+            cursor: pointer
+            padding: 4px 30px
+            outline: none
+            i
+                margin-left: 20px
+
+        button:hover
+            color: white
+
+    .header-menu-open
+        display: block !important
+
+    #header-small-screen-menu
+
+        display: none
+        border-style: solid
+        border-width: 1px
+        border-color: $aletheia_grey
+        background: black
+        position: absolute
+        
+        ul
+            list-style-type: none
+        
+        li
+            padding: 10px
+
+        a
+            color: $aletheia_grey
+            text-decoration: none
+            font-size: 14pt
+            display: block

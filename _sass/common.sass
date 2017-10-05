@@ -1,4 +1,10 @@
 
+$aletheia_grey: rgba(130,130,131,1)
+$aletheia_darkgreen: rgba(26,170,90,1)
+
+$small_screen_max_width: 740px
+$large_screen_min_width: 741px
+
 html
     width: 100%
     min-height: 100%
@@ -16,5 +22,6 @@ body
     margin: 0
     padding: 0
 
-$aletheia_grey: rgba(130,130,131,1)
-$aletheia_darkgreen: rgba(26,170,90,1)
+@media screen (max-width: small_screen_max_width)
+    body
+        background-size: 900px auto
