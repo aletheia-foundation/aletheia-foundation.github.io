@@ -31,3 +31,14 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
