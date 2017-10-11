@@ -1,28 +1,87 @@
+$header_height: 34px
 
 header 
     position: fixed
     top: 0
     left: 0
-    height: 34px
+    height: $header_height
+    line-height: $header_height
     background: black
     width: 100%
     text-align: right
-    font-family: 'Open Sans', sans-serif
     z-index: 1
 
+@media screen and (min-width: $large_screen_min_width)
 
-header a 
-    color: $aletheia_grey
-    border-style: solid
-    border-width: 0 1px 0 0
-    text-decoration: none
-    font-size: 14pt
-    padding: 4px 30px
-    position: relative
-    top: 5px
-    font-weight: bold
+    #header-small-screen
+        display: none
+        
+    #header-large-screen 
+        height: 100%
+        a 
+            color: $aletheia_grey
+            border-style: solid
+            border-width: 0 1px 0 0
+            text-decoration: none
+            font-size: 1.4em
+            height: $header_height
+            padding-left: 30px
+            padding-right: 30px
+            text-align: center
+            height: 100%
+            display: inline-block
+            vertical-align: middle
+
+        a:hover 
+            color: whitesmoke
+            border-color: $aletheia_grey
 
 
-header a:hover 
-    color: whitesmoke
-    border-color: $aletheia_grey
+@media screen and (max-width: $small_screen_max_width)
+
+    #header-large-screen 
+        display: none
+
+    #header-menu-container
+        position: relative
+
+        button
+            font-size: 1.4em
+            display: block
+            border-style: none
+            color: $aletheia_grey
+            background: black
+            font-weight: bold
+            cursor: pointer
+            padding: 4px 30px
+            outline: none
+
+        button:hover
+            color: white
+
+    .header-menu-open
+        display: block !important
+
+    #header-small-screen-menu
+
+        display: none
+        border-style: solid
+        border-width: 0px 0px 1px 0px
+        border-color: $aletheia_grey
+        background: black
+        position: fixed
+        top: $header_height
+        width: 100%
+        
+        ul
+            list-style-type: none
+        
+        li
+            padding: 10px
+
+        a
+            color: $aletheia_grey
+            text-decoration: none
+            font-size: 1.2em
+            display: block
+            text-align: left

@@ -7,17 +7,17 @@
 @import "footer"
 
 main
-    min-height: calc(100% - 64px)
+    height: calc(100% - 64px)
     position: relative
     top: 34px
     width: 100%
     color: #555f61
-    font-size: 13pt    
+    font-size: 1.3em
 
 #post-container
     /*height minus header and footer*/ 
-    min-height: calc(100% - 64px) 
-    background: white
+    overflow-y: auto
+    background: rgba(255,255,255,0.8)
     width: 900px
     font-family: Calibri, sans-serif
     padding: 20px
@@ -26,4 +26,6 @@ main
 h1, h2, h3, h4, h5
     color: $aletheia_darkgreen
 
-
+@media screen and (max-width: $small_screen_max_width)
+    #post-container
+        width: 100%
