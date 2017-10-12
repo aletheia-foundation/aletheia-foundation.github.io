@@ -2,6 +2,7 @@
 $aletheia_grey: rgba(130,130,131,1)
 $aletheia_darkgreen: rgba(26,170,90,1)
 $aletheia_lightgreen: rgba(170,207,56,1)
+$text_container_white: rgba(255,255,255,0.8)
 
 $small_screen_max_width: 740px
 $large_screen_min_width: 741px
@@ -28,9 +29,29 @@ body
     margin: 0
     padding: 0
 
+#main
+    height: calc(100% - 64px)
+    position: relative
+    top: 34px
+    width: 100%
+    color: #555f61
+    font-size: 1.3em
+
+#post-container
+    /*height minus header and footer*/ 
+    overflow-y: auto
+    background: $text_container_white
+    width: 900px
+    font-family: Calibri, sans-serif
+    padding: 20px
+    margin: auto    
+    min-height: 100%;
+
 @media screen and (max-width: $small_screen_max_width)
     body
         background-size: auto 100%
+    #post-container
+        width: 100%
 
 
 //@media screen and (max-resolution: $small_screen_dpi)
