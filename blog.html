@@ -9,9 +9,10 @@ stylesheet: blog
   <li>
     <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <h2>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-    </h2>
+    <h3>{{ post.title | escape }}</h3>
+    <p>{{  post.excerpt }}</p>
+    <a class="post-link" href="{{ post.url | relative_url }}">Read More...</a>
+    
   </li>
 {% endfor %}
 </ul>

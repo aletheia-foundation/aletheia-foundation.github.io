@@ -24,7 +24,7 @@ body
     height: 100vh
     /* https://pixabay.com/en/landscape-forest-trees-jungle-2584127/ */
     background-image: url("/images/bg_100pc.jpg")
-    background-size: 100% 100%
+    background-size: 100% auto
     background-attachment: fixed 
     margin: 0
     padding: 0
@@ -45,11 +45,11 @@ body
     font-family: Calibri, sans-serif
     padding: 20px
     margin: auto    
-    min-height: 100%;
+    min-height: 100%
 
 @media screen and (max-width: $small_screen_max_width)
     body
-        background-size: auto 100%
+        background-size: 100% auto
     #post-container
         width: 100%
 
