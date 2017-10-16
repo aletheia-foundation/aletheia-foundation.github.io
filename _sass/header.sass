@@ -38,6 +38,9 @@ header
 
 @media screen and (max-width: $small_screen_max_width)
 
+    #header-small-screen
+        position: relative
+        
     #header-large-screen 
         display: none
 
@@ -68,8 +71,7 @@ header
         border-width: 0px 0px 1px 0px
         border-color: $aletheia_grey
         background: black
-        position: fixed
-        top: $header_height
+        position: absolute
         width: 100%
         
         ul
