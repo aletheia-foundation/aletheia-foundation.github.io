@@ -1,5 +1,18 @@
 ---
-stylesheet: none
+stylesheet: default
 ---
+<!DOCTYPE html>
+<html>
 
-{{ content }}
+    {% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+
+</body>
+</html>
