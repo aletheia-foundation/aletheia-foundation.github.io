@@ -1,0 +1,46 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+@import "common"
+@import "header"
+@import "footer"
+
+main 
+    position: fixed
+    top: $header_height
+    left: 0
+    width: 100%
+    height: calc(100% - #{$header_height} - #{$footer_height})
+    display: flex
+    align-items: center
+
+#mid-section-container 
+    padding: 20px
+    background: rgba(255, 255, 255, 0.8)
+    width: 692px
+    margin: auto
+
+#logo-container 
+    margin-left: auto  
+    margin-right: auto
+
+#logo-container img 
+    width: 200px 
+    display: block
+    margin: auto
+
+#title 
+    font-size: 2.6em
+    color: $aletheia_darkgreen
+    text-align: center
+    margin-top: 35px
+
+@media screen and (max-width: $small_screen_max_width)
+    #mid-section-container 
+        width: 100%
+        padding-left: 0
+        padding-right: 0
+    
+    #title
+        font-size: 1.9em
