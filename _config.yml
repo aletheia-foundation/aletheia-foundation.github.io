@@ -15,6 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Aletheia 
 email: contact@aletheia-foundation.io
+# Contact update (11 October 2026): The Aletheia email address is no longer monitored.
+# Please send all enquiries, feedback, and contribution offers to kademorton@protonmail.com.
+current_contact_email: kademorton@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Aletheia is a decentralised open access scientific journal. Think of it as a peer to peer 
   (P2P) publishing platform and database all rolled into one.
